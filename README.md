@@ -3,11 +3,11 @@
 I found about Forage when I was looking for internships while doing my master's degree. Forage is an open-access platform connecting students with their company-endorsed Virtual Work Experience Program, such as ANZ, JPMorgan, and KPMG. The project was based on a dataset containing 3 months worth of transactions for 100 hypothetical customers. It includes purchases, recurring transactions, and salary transactions. It is divided into two parts: exploratory data analysis and predictive data analysis. 
 
 ## Part 1. Exploratory data analysis
-• The dataset has 12,043 rows.
-• Transaction period is from 01/08/2018 to 31/10/2018, with a missing value on 16/08/2018.
-• The customers are in Australia except for the customer ID CUS-1617121891.
-• The purchase transaction values represented 7,717 values of the 12,043 values from the dataset.
-• The purchase transaction frequency is concentrated between AU$5 and AU$30.
+* The dataset has 12,043 rows.
+* Transaction period is from 01/08/2018 to 31/10/2018, with a missing value on 16/08/2018.
+* The customers are in Australia except for the customer ID CUS-1617121891.
+* The purchase transaction values represented 7,717 values of the 12,043 values from the dataset.
+* The purchase transaction frequency is concentrated between AU$5 and AU$30.
 • The purchase transaction values have 1,158 outliers (above 85% of the sub-data distribution) between AU$47 and AU$7,081.
 • The overall transaction frequency is concentrated between AU$0 and AU$40.
 • The overall transaction values have 1,807 outliers (above 85% of the-sub data distribution) between AU$114 and AU$8,835.
