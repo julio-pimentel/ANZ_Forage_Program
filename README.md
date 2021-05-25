@@ -9,6 +9,7 @@ I found about Forage when I was looking for internships while doing my master's 
 * The purchase transaction values represented 7,717 values of the 12,043 values from the dataset.
 * The purchase transaction frequency is concentrated between AU$5 and AU$30.
 * The purchase transaction values have 1,158 outliers (above 85% of the sub-data distribution) between AU$47 and AU$7,081.
+* ![alt text](https://github.com/julio-pimentel/ANZ_Forage_Program/blob/main/histogram%20purchase%20transaction.png)
 * The overall transaction frequency is concentrated between AU$0 and AU$40.
 * The overall transaction values have 1,807 outliers (above 85% of the-sub data distribution) between AU$114 and AU$8,835.
 * The transaction volume was analyzed by the hour and weekday.
