@@ -12,11 +12,14 @@ I found about Forage when I was looking for internships while doing my master's 
 ![](https://github.com/julio-pimentel/ANZ_Forage_Program/blob/main/histogram%20purchase%20transaction.png)
 * The overall transaction frequency is concentrated between AU$0 and AU$40.
 * The overall transaction values have 1,807 outliers (above 85% of the-sub data distribution) between AU$114 and AU$8,835.
+![](https://github.com/julio-pimentel/ANZ_Forage_Program/blob/main/histogram%20overall%20transaction.png)
 * The transaction volume was analyzed by the hour and weekday.
 * Wednesday, Thursday, and Friday are the days with more transaction volume.
 * Monday and Tuesday are the days with less transaction volume.
+![](https://github.com/julio-pimentel/ANZ_Forage_Program/blob/main/average%20transaction%20by%20weekday.png)
 * The hours 9:00, 11:00, 17:00 are the highest peak of transaction volume.
 * Between 0:00 and 8:00 is the lowest peak of transaction volume.
+![](https://github.com/julio-pimentel/ANZ_Forage_Program/blob/main/average%20transaction%20by%20hour.png)
 
 ## Part 2. Predictive data analysis
 * The customer's monthly salary was calculated by filtering the "PAY/SALARY" attribute from the columns "txn_description".
