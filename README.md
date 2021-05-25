@@ -29,16 +29,19 @@ I found about Forage when I was looking for internships while doing my master's 
 * The customer's monthly salary was calculated by filtering the "PAY/SALARY" attribute from the columns "txn_description".
 * It was assumed that the monthly salary did not change in the interval of the dataset.
 * 75% of the customers' salary is between AU$576 and AU$2,886.
+
 ![](https://github.com/julio-pimentel/ANZ_Forage_Program/blob/main/Plots/histogram%20customer%20salary.png)
 * The original variables of the dataset "age" and "state" were selected.
 * New attributes were created from the original variables: (1) balance's median, (2) amount's maximum, (3) amount's mean, (4) number of dates with a transaction, (5) number of
 the large transaction amount, (6) average week transactions, (7) age intervals (below 20, between 20 and 40, between
 40 and 60).
 * Each variable was plotted against the customers' monthly salary.
+
 ![](https://github.com/julio-pimentel/ANZ_Forage_Program/blob/main/Plots/salary%20vs%20other%20variables.png)
 * The selected variables do not have a significant correlation above 0.50, which is not better than making a guess.
 * The first linear regression model using all variables has an R 2 of 0.155 and an MSE of 1,634,256.
 * Second model using the variables "age", "amount's maximum", "average week transactions", "gender" and "balance’s medium” has a R 2 of 0.129 MSE of 1,684,761.
+
 ![](https://github.com/julio-pimentel/ANZ_Forage_Program/blob/main/Plots/correlation.png)
 
 The project was developed in Python using the libraries Pandas, Seaborn, and NumPy. 
